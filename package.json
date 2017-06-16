@@ -1,0 +1,32 @@
+{
+  "name": "@beto_fns/unitconverter",
+  "version": "0.1.0",
+  "description": "Convertidor de unidades, ya sea de kilos a libras o de libras a kilos.",
+  "main": "dist/src/unitconverter.js",
+  "scripts": {
+    "build": "babel src/unitconverter.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlbertHdz4/Unit_Converter.git"
+  },
+  "keywords": [
+    "convertidor",
+    "unidades",
+    "kilogramos",
+    "libras"
+  ],
+  "author": "Alberto Hernández <alberto.hernandez.l@outlook.com> (https://twitter.com/BetoFns27)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlbertHdz4/Unit_Converter/issues"
+  },
+  "homepage": "https://github.com/AlbertHdz4/Unit_Converter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
